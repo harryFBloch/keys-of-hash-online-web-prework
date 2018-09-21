@@ -9,5 +9,4 @@ class Hash
      end
     end
 listOfKeys
-  end
 end
