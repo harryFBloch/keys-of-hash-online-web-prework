@@ -1,7 +1,7 @@
 class Hash
-  def keys_of(*arguments)
-    listOfKeys = []
-    argument.each do |arg|
+   def keys_of(*argument)
+    # code goes here	listOfKeys=[]
+ argument.each do |arg|
     map do |key,value|
      if arg == value
    listOfKeys<< key
@@ -9,4 +9,5 @@ class Hash
      end
     end
 listOfKeys
+  end	  
 end
